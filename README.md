@@ -103,7 +103,7 @@ model_cnn.compile(loss='categorical_crossentropy',
 ```
 
 # Step 5: Fitting the Model
-Fitting the model on the training data. For the validation set use **"validation_split = 0.2"**
+Fitting the model on the training data. For the validation_set use **"validation_split = 0.2"**
 
 ```python
 #Model fitting
