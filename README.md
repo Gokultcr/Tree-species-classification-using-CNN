@@ -1,11 +1,11 @@
 # Tree-species-classification-using-CNN
 
 
-This Jupyter Notebook demonstrates how to use a Convolutional Neural Network (CNN) for image classification. The process includes several steps such as loading images, preprocessing, defining the CNN model, compiling and fitting the model, and calculating the accuracy. It's important to note that in this example, the dataset is only divided into training and testing sets, and only the test accuracy is printed in the results.
+This script demonstrates how to use a Convolutional Neural Network (CNN) for image classification. The process includes several steps such as loading images, preprocessing, defining the CNN model, compiling and fitting the model, and calculating the accuracy. It's important to note that in this example, the dataset is only divided into training and testing sets, and only the test accuracy is printed in the results.
 
 ## Step 1: Loading Images
 
-We first load the images from the dataset. This step involves importing necessary libraries and loading the dataset into memory.
+Load the images from the dataset. This step involves importing necessary libraries and then loading the dataset into memory.
 
 ```python
 
@@ -46,7 +46,7 @@ from sklearn.metrics import confusion_matrix
 
 ```
 # Step 2: Preprocessing
-We preprocess the images by normalizing pixel values and performing any required transformations such as resizing or augmentation.
+Preprocess the images by normalizing pixel values and performing any required transformations such as resizing or augmentation.
 
 ```python
 ## pre-processing
